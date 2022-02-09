@@ -1,0 +1,48 @@
+main(){
+
+    /*while(frontIsClear()){
+        while(frontIsClear()){
+                putBeeper()
+                move()
+            }
+         if(rightIsClear()){
+             turnLeft()
+             turnLeft()
+             turnLeft()
+         }
+    }*/
+    //move()
+    //turnLeft()
+
+    /*while(frontIsClear()){
+            while(frontIsClear()){
+                    putBeeper()
+                    move()
+                }
+             if(rightIsClear()){
+                 turnLeft()
+                 turnLeft()
+                 turnLeft()
+             }
+        }*/
+
+       while(frontIsClear()){
+            move()
+       }
+       turnLeft()
+       turnLeft()
+       turnLeft()
+       move()
+       turnLeft()
+       move()
+       turnLeft()
+       move()
+       for(3){
+        turnLeft()
+       }
+       for(5){
+          move()
+       }
+       putBeeper()
+
+}
